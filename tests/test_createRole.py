@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 
 from pageObjects.AddRolePage import AddRolePage
 from pageObjects.LoginPage import LoginPage
+from testData.NewUserData import NewUserData
 from utilities.BaseClass import BaseClass
 
 

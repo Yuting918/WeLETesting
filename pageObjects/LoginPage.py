@@ -1,9 +1,7 @@
 import time
-
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from pageObjects.DashboardPage import DashboardPage
-
 
 class LoginPage:
     def __init__(self, driver):

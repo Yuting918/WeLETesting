@@ -20,8 +20,9 @@ class TestGenQuesPool(BaseClass):
         newAssignmentPage.choose_from_q_pool()
         newAssignmentPage.get_pool_by_name('TestPool000')
         assignmentConfigurePage = newAssignmentPage.save_and_proceed()
-        assignmentConfigurePage.configure_assignment('Mathematica 101','Math101_Ass1',
-                                               3,'Homework',True,15,
+        assignmentConfigurePage.configure_assignment('Mathematica 101',
+                                                     'Math101_Ass2',
+                                               3,'Homework',True,2,
                                                '08012022',
                                                '08012022','Max')
         assignmentConfigurePage.save_and_proceed()

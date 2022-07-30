@@ -7873,3 +7873,19 @@ Term: Autumn 2022
 2022-07-28 16:57:43,084 :INFO : get_pool_by_name :TESTPOOL000
 2022-07-28 16:58:57,380 :INFO : get_pool_by_name :TESTPOOL000
 2022-07-28 16:59:07,966 :INFO : test_generate_question_pool :Assignment successfully released
+2022-07-29 18:23:18,757 :INFO : get_pool_by_name :TESTPOOL000
+2022-07-29 18:23:29,495 :INFO : test_generate_question_pool :Assignment successfully released
+2022-07-29 18:25:39,465 :INFO : test_stu_take_ass :{'ID': 'stu002', 'f_name': 'StuFName2', 'l_name': 'StuLName2'}
+2022-07-29 18:27:20,430 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:30:15,844 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:33:06,853 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:35:49,193 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:36:59,458 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:39:52,803 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:40:03,694 :INFO : test_stu_take_ass :The assignment name is Math101_Ass2; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-07-29 18:45:13,520 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:45:24,836 :INFO : test_stu_take_ass :The assignment name is Math101_Ass2; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-07-29 18:47:34,908 :INFO : test_stu_take_ass :['Math101_Ass2', 'Homework', '1', '2 Minutes', '0/1', '0h 2min 1sec']
+2022-07-29 18:49:00,329 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-07-29 18:49:11,495 :INFO : test_stu_take_ass :The assignment name is Math101_Ass2; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-07-29 18:51:16,578 :INFO : test_stu_take_ass :['Math101_Ass2', 'Homework', '1', '2 Minutes', '0/1', '0h 2min 1sec']

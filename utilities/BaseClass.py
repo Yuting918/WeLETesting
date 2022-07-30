@@ -9,7 +9,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-
 # now the base class have the knowledge of the setup
 @pytest.mark.usefixtures("setup")
 class BaseClass:
@@ -24,6 +23,7 @@ class BaseClass:
         logger.addHandler(fileHandler)  # filehandler object
         logger.setLevel(logging.INFO)
         return logger
+
 
     def verifyAutoCompleteUserPresence(self):
         WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
