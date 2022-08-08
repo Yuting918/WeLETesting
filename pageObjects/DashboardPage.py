@@ -1,10 +1,13 @@
 from selenium.webdriver.common.by import By
 
 from pageObjects.AssignmentPage import AssignmentPage
+from pageObjects.ManageCoursePage import ManageCoursePage
 from pageObjects.ManageUserPage import ManageUserPage
 from pageObjects.NewAssignmentPage import NewAssignmentPage
 from pageObjects.QuestionPoolPage import QuestionPoolPage
+from pageObjects.QuestionsPage import QuestionsPage
 from pageObjects.RolePage import RolePage
+
 
 
 class DashboardPage:
@@ -21,6 +24,8 @@ class DashboardPage:
     assignment_but = (By.LINK_TEXT, "ASSIGNMENT")
     c_ass_admin_but =(By.XPATH, "(//button[@id='basic-button'])[3]")
     new_assignment_but = (By.LINK_TEXT, "+ New Assignment")
+    questions_but = (By.LINK_TEXT,"QUESTIONS")
+    course_svg = (By.XPATH,"//div[3]//button[2]//*[name()='svg']")
 
 
     def get_tab_buttons(self):
@@ -51,6 +56,18 @@ class DashboardPage:
         self.driver.find_element(*DashboardPage.c_ass_admin_but).click()
         self.driver.find_element(*DashboardPage.new_assignment_but).click()
         return NewAssignmentPage(self.driver)
+
+    def go_to_question(self):
+        self.driver.find_element(*DashboardPage.questions_but).click()
+        return QuestionsPage(self.driver)
+
+    def go_to_mangage_course(self):
+        self.driver.find_element(*DashboardPage.course_svg).click()
+        self.driver.find_element(By.LINK_TEXT, "Manage Courses").click()
+        return ManageCoursePage(self.driver)
+
+
+
 
 
 

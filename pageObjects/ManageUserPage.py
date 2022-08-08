@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -31,6 +33,7 @@ class ManageUserPage(BaseClass):
                 self.select_instructor()
 
     def submit_add_user(self):
+        time.sleep(1)
         self.driver.find_element(*ManageUserPage.add_user_but).click()
 
     def get_ID(self):
