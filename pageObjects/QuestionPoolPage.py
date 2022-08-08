@@ -31,6 +31,8 @@ class QuestionPoolPage(BaseClass):
     confirm_delete_but = (By.XPATH, "//button[text()='Ok']")
     add_question_to_pool_but = (By.XPATH, "//button[text()='Add']")
     update_pool_but = (By.XPATH, "//button[text()='Update Pool']")
+    pool_cannot_be_edited = (By.CSS_SELECTOR,"div[class='MuiAlert-message "
+                                             "css-1xsto0d']")
 
 
     def add_pool(self):
@@ -104,6 +106,12 @@ class QuestionPoolPage(BaseClass):
         element =  self.driver.find_element(
             *QuestionPoolPage.update_pool_but)
         self.driver.execute_script("arguments[0].click();", element)
+
+    def pool_editable(self):
+        return self.driver.find_element(*QuestionPoolPage.pool_cannot_be_edited)
+
+    def go_back(self):
+        self.driver.find_element(By.XPATH,"//button[text()='Go Back']").click()
 
 
 

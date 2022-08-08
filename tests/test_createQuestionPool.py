@@ -18,14 +18,14 @@ class TestGenQuesPool(BaseClass):
         questionPoolPage = dashboard.go_to_ques_pool()
         self.delete_all_pools(questionPoolPage,log)
         questionPoolPage.add_pool()
-        question_pool_names = QuestionPoolData.pool_name_generator(1)
+        question_pool_names = QuestionPoolData.pool_name_generator(2)
         log.info(question_pool_names)
         i = 0
         for p_name in question_pool_names:
             if i == 0:
-                questionPoolPage.create_pool(p_name, 'TestPool',1)
+                questionPoolPage.create_pool(p_name, 'TestPool',2)
             else:
-                questionPoolPage.create_another_pool(p_name, 'TestPool',1)
+                questionPoolPage.create_another_pool(p_name, 'TestPool',2)
             i += 1
         questionPoolPage.add_question()
         questionPoolPage.choose_tag('MATH 101')
@@ -47,9 +47,15 @@ class TestGenQuesPool(BaseClass):
                 break
             except:
                 questionPoolPage.view_pool()
-                time.sleep(0.5)
-                questionPoolPage.delete_pool()
-                time.sleep(0.5)
+                time.sleep(1)
+                try:
+                    questionPoolPage.pool_editable()
+                    log.info('This question pool is not editable')
+                    questionPoolPage.go_back()
+                    break
+                except:
+                    questionPoolPage.delete_pool()
+                    time.sleep(0.5)
 
     def add_all_questions(self,questionPoolPage,log):
         while True:

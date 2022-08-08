@@ -2,7 +2,7 @@ class QuestionPoolData:
     @staticmethod
     def pool_name_generator(number):
         pool_names = []
-        for i in range(number):
+        for i in range(1,number):
             if i < 10:
                 n = '00' + str(i)
             elif 10 <= i < 100:

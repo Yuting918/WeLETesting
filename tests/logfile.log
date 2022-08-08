@@ -8015,3 +8015,86 @@ Term: Fall 2022
 Course Code: TestN001
 Term: Fall 2022
 2022-08-07 21:39:27,164 :INFO : test_admin_add_user_to_course :StuFName019successfully added toTest001
+2022-08-07 22:04:43,710 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:04:43,715 :INFO : test_generate_question_pool :No question pool fetched
+2022-08-07 22:06:55,477 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:06:55,482 :INFO : test_generate_question_pool :No question pool fetched
+2022-08-07 22:11:05,678 :INFO : test_generate_question_pool :trying
+2022-08-07 22:11:05,691 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:11:05,696 :INFO : test_generate_question_pool :No question pool fetched
+2022-08-07 22:13:15,734 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:13:15,738 :INFO : test_generate_question_pool :No question pool fetched
+2022-08-07 22:15:04,833 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:17:15,036 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:17:41,353 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:19:27,010 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:19:27,162 :INFO : test_generate_question_pool :['TestPool000']
+2022-08-07 22:21:39,986 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:21:40,145 :INFO : test_generate_question_pool :['TestPool000']
+2022-08-07 22:25:15,709 :INFO : test_admin_add_user :Stu012successfully added
+2022-08-07 22:25:18,903 :INFO : test_admin_add_user :Stu013successfully added
+2022-08-07 22:25:22,072 :INFO : test_admin_add_user :Stu014successfully added
+2022-08-07 22:25:25,505 :INFO : test_admin_add_user :Stu015successfully added
+2022-08-07 22:25:28,692 :INFO : test_admin_add_user :Stu016successfully added
+2022-08-07 22:25:31,917 :INFO : test_admin_add_user :Stu017successfully added
+2022-08-07 22:25:35,096 :INFO : test_admin_add_user :Stu018successfully added
+2022-08-07 22:26:09,895 :INFO : test_admin_add_user :Stu012successfully added
+2022-08-07 22:30:57,005 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:30:57,159 :INFO : test_generate_question_pool :[]
+2022-08-07 22:31:37,872 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 22:31:38,023 :INFO : test_generate_question_pool :[]
+2022-08-07 23:08:36,207 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-07 23:08:36,368 :INFO : test_generate_question_pool :['TestPool001']
+2022-08-07 23:08:38,531 :INFO : test_generate_question_pool :No question fetched
+2022-08-07 23:13:21,866 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-07 23:18:01,710 :INFO : test_admin_add_user :Stu021successfully added
+2022-08-07 23:18:04,884 :INFO : test_admin_add_user :Stu022successfully added
+2022-08-07 23:18:08,095 :INFO : test_admin_add_user :Stu023successfully added
+2022-08-07 23:18:11,259 :INFO : test_admin_add_user :Stu024successfully added
+2022-08-07 23:18:14,465 :INFO : test_admin_add_user :Stu025successfully added
+2022-08-07 23:18:17,634 :INFO : test_admin_add_user :Stu026successfully added
+2022-08-07 23:18:20,832 :INFO : test_admin_add_user :Stu027successfully added
+2022-08-07 23:18:24,052 :INFO : test_admin_add_user :Stu028successfully added
+2022-08-07 23:18:27,255 :INFO : test_admin_add_user :Stu029successfully added
+2022-08-07 23:18:37,779 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-07 23:19:53,852 :INFO : test_admin_add_user :Stu031successfully added
+2022-08-07 23:19:57,018 :INFO : test_admin_add_user :Stu032successfully added
+2022-08-07 23:20:00,202 :INFO : test_admin_add_user :Stu033successfully added
+2022-08-07 23:20:03,361 :INFO : test_admin_add_user :Stu034successfully added
+2022-08-07 23:20:13,354 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-07 23:20:24,086 :INFO : test_generate_question_pool :Assignment successfully released
+2022-08-07 23:21:46,881 :INFO : test_admin_add_user :Stu036successfully added
+2022-08-07 23:24:01,270 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse002']
+2022-08-07 23:24:02,371 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse002
+Course Code: TestN001
+Term: Fall 2022
+2022-08-07 23:24:05,555 :INFO : test_admin_add_user_to_course :StuFName036successfully added toTestCourse002
+2022-08-07 23:24:15,094 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-07 23:24:25,909 :INFO : test_generate_question_pool :Assignment successfully released
+2022-08-07 23:26:17,193 :INFO : test_admin_add_user :Stu037successfully added
+2022-08-07 23:26:20,383 :INFO : test_admin_add_user :Stu038successfully added
+2022-08-07 23:26:33,118 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-07 23:26:34,211 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-07 23:26:37,383 :INFO : test_admin_add_user_to_course :StuFName037successfully added toTestCourse003
+2022-08-07 23:26:40,901 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-07 23:26:40,901 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-07 23:26:41,999 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-07 23:28:49,251 :INFO : test_admin_add_user :Stu038successfully added
+2022-08-07 23:28:52,426 :INFO : test_admin_add_user :Stu039successfully added
+2022-08-07 23:29:49,233 :INFO : test_admin_add_user :Stu039successfully added
+2022-08-07 23:29:54,526 :INFO : test_admin_add_user :Stu040successfully added
+2022-08-07 23:30:07,166 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-07 23:30:08,262 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-07 23:30:11,437 :INFO : test_admin_add_user_to_course :StuFName037successfully added toTestCourse003
+2022-08-07 23:30:16,424 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-07 23:30:16,424 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-07 23:30:17,521 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-07 23:30:20,690 :INFO : test_admin_add_user_to_course :StuFName038successfully added toTestCourse003
