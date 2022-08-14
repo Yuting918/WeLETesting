@@ -8098,3 +8098,90 @@ Term: Fall 2022
 Course Code: TestCourse003_ID
 Term: Fall 2022
 2022-08-07 23:30:20,690 :INFO : test_admin_add_user_to_course :StuFName038successfully added toTestCourse003
+2022-08-14 16:29:53,661 :INFO : test_admin_add_user :Stu040successfully added
+2022-08-14 16:29:58,839 :INFO : test_admin_add_user :Stu041successfully added
+2022-08-14 16:30:04,048 :INFO : test_admin_add_user :Stu042successfully added
+2022-08-14 16:30:10,510 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 16:30:11,600 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 16:30:14,800 :INFO : test_admin_add_user_to_course :StuFName040successfully added toTestCourse003
+2022-08-14 16:30:17,301 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 16:30:17,301 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 16:30:18,406 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 16:31:27,996 :INFO : test_admin_add_user :Stu044successfully added
+2022-08-14 16:31:33,210 :INFO : test_admin_add_user :Stu045successfully added
+2022-08-14 16:31:39,808 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 16:31:40,905 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 16:31:44,089 :INFO : test_admin_add_user_to_course :StuFName044successfully added toTestCourse003
+2022-08-14 16:31:46,593 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 16:31:46,593 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 16:31:47,694 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 16:31:50,880 :INFO : test_admin_add_user_to_course :StuFName045successfully added toTestCourse003
+2022-08-14 16:31:55,749 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-14 16:32:06,210 :INFO : test_generate_question_pool :Assignment successfully released
+2022-08-14 16:45:22,669 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 16:45:29,018 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_001; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-08-14 16:47:34,107 :INFO : test_stu_take_ass :['TestCourse003_Ass_001', 'Homework', '1', '2 Minutes', '0/1', '0h 2min 1sec']
+2022-08-14 16:58:00,612 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 16:58:07,628 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_001; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-08-14 16:59:30,171 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 16:59:36,597 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_001; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-08-14 17:02:01,563 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 17:02:08,441 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_001; The type is Homework; The number of questions is 1; The time limit is 2 Minutes
+2022-08-14 17:04:13,654 :INFO : test_stu_take_ass :['TestCourse003_Ass_001', 'Homework', '1', '2 Minutes', '1/1', '0h 2min 1sec']
+2022-08-14 17:15:40,743 :INFO : test_admin_add_user :Stu0001successfully added
+2022-08-14 17:15:45,957 :INFO : test_admin_add_user :Stu0002successfully added
+2022-08-14 17:15:51,166 :INFO : test_admin_add_user :Stu0003successfully added
+2022-08-14 17:15:56,370 :INFO : test_admin_add_user :Stu0004successfully added
+2022-08-14 17:16:04,261 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:05,356 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 17:16:08,536 :INFO : test_admin_add_user_to_course :StuFName0001successfully added toTestCourse003
+2022-08-14 17:16:11,440 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:11,440 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:12,539 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 17:16:15,722 :INFO : test_admin_add_user_to_course :StuFName0002successfully added toTestCourse003
+2022-08-14 17:16:18,222 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:18,222 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:18,222 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:19,317 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 17:16:22,499 :INFO : test_admin_add_user_to_course :StuFName0003successfully added toTestCourse003
+2022-08-14 17:16:25,046 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:25,046 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:25,046 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:25,046 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:16:26,164 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 17:16:29,362 :INFO : test_admin_add_user_to_course :StuFName0004successfully added toTestCourse003
+2022-08-14 17:16:35,140 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-14 17:16:45,634 :INFO : test_generate_question_pool :Assignment successfully released
+2022-08-14 17:34:46,380 :INFO : test_admin_add_user :Stu0005successfully added
+2022-08-14 17:34:55,150 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 17:34:56,245 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 17:34:59,433 :INFO : test_admin_add_user_to_course :StuFName0005successfully added toTestCourse003
+2022-08-14 17:45:00,877 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-14 17:45:01,028 :INFO : test_generate_question_pool :['TestPool001']
+2022-08-14 17:45:02,966 :INFO : test_generate_question_pool :No question fetched
+2022-08-14 17:45:07,758 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-14 17:45:18,396 :INFO : test_release_question_pool :Assignment successfully released
+2022-08-14 18:08:46,838 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 18:09:56,240 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 18:10:03,372 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 18:15:21,372 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 18:15:28,504 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 18:16:33,746 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 1min 1sec']

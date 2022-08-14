@@ -13,6 +13,9 @@ class TakingTestPage:
     assignment_review_info = (By.CLASS_NAME,
                             "submissionReview_propDataText__lHUaZ")
     retake_assignment_but = (By.XPATH, "//button[text()='Retake Assignment']")
+    question_ipt = (
+    By.CSS_SELECTOR, "input[placeholder='Type your answer here']")
+    submit_assignment_but = (By.XPATH,"//button[text()='Submit Assignment']")
 
 
     def get_assignment_info(self):
@@ -36,6 +39,13 @@ class TakingTestPage:
 
     def retake_assignment(self):
         self.driver.find_element(*TakingTestPage.retake_assignment_but).click()
+
+    def type_answer(self, answer):
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+            TakingTestPage.question_ipt)).send_keys(answer)
+
+    def submit_assignment(self):
+        self.driver.find_element(*TakingTestPage.submit_assignment_but).click()
 
 
 

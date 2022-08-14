@@ -4,8 +4,10 @@ class NewUserData:
         new_user = []
         for i in range(s,e):
             if i < 10:
-                n = '00' + str(i)
+                n = '000' + str(i)
             elif 10 <= i < 100:
+                n = '00' + str(i)
+            elif 100 <=i < 1000:
                 n = '0' + str(i)
             else:
                 n = str(i)
