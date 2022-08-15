@@ -8317,3 +8317,232 @@ Term: Fall 2022
 2022-08-14 23:31:37,935 :INFO : test_stu_take_ass_timer :fetch scores...
 2022-08-14 23:31:37,969 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
 2022-08-14 23:31:37,969 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:40:48,822 :INFO : test_admin_add_user :Stu0006successfully added
+2022-08-14 23:40:54,042 :INFO : test_admin_add_user :Stu0007successfully added
+2022-08-14 23:41:06,138 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 23:41:07,236 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 23:41:10,425 :INFO : test_admin_add_user_to_course :StuFName0006successfully added toTestCourse003
+2022-08-14 23:41:14,221 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 23:41:14,221 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 23:41:15,328 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 23:41:18,515 :INFO : test_admin_add_user_to_course :StuFName0007successfully added toTestCourse003
+2022-08-14 23:41:40,630 :INFO : test_generate_question_pool :This question pool is not editable
+2022-08-14 23:41:40,765 :INFO : test_generate_question_pool :['TestPool001']
+2022-08-14 23:41:42,652 :INFO : test_generate_question_pool :No question fetched
+2022-08-14 23:41:50,698 :INFO : get_pool_by_name :TESTPOOL000
+2022-08-14 23:42:01,720 :INFO : test_release_question_pool :Assignment successfully released
+2022-08-14 23:43:38,119 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:43:49,866 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:43:54,223 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-14 23:43:58,929 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:43:58,964 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-14 23:44:12,896 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:12,896 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:12,896 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:24,225 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:24,225 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:24,225 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:28,523 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-14 23:44:28,523 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-14 23:44:28,523 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-14 23:44:33,084 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:33,084 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:33,084 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:33,117 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-14 23:44:33,117 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-14 23:44:33,117 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-14 23:44:35,945 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:35,945 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:35,945 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:35,945 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:44:47,283 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:47,283 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:47,283 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:47,283 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:44:51,609 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-14 23:44:51,609 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-14 23:44:51,609 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-14 23:44:51,609 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-14 23:44:56,123 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:56,123 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:56,123 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:56,123 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:44:56,158 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-14 23:44:56,158 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-14 23:44:56,158 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-14 23:44:56,158 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-14 23:44:59,343 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:45:11,219 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:46:16,296 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-14 23:46:20,434 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:46:20,468 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,0]
+2022-08-14 23:46:23,505 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:46:23,505 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:46:35,321 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:46:35,321 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:47:40,388 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-14 23:47:40,388 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-14 23:47:44,586 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:47:44,586 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:47:44,620 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,0,0]
+2022-08-14 23:47:44,620 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,0,0]
+2022-08-14 23:47:47,573 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:47:47,573 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:47:47,573 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:47:59,441 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:47:59,441 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:47:59,441 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:49:04,514 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-14 23:49:04,514 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-14 23:49:04,514 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-14 23:49:08,759 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:08,759 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:08,759 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:08,793 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:49:08,793 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:49:08,793 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:49:12,079 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:49:12,079 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:49:12,079 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:49:12,079 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:49:13,703 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:49:13,703 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:49:13,703 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:49:13,703 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:49:17,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:17,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:17,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:17,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:49:17,799 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:49:17,799 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:49:17,799 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:49:17,799 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-14 23:58:58,031 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-14 23:58:59,138 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-14 23:59:53,298 :INFO : test_admin_add_user :Stu0008successfully added
+2022-08-14 23:59:58,526 :INFO : test_admin_add_user :Stu0009successfully added
+2022-08-15 00:00:12,560 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-15 00:00:13,661 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-15 00:00:16,857 :INFO : test_admin_add_user_to_course :StuFName0008successfully added toTestCourse003
+2022-08-15 00:00:21,104 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-15 00:00:21,104 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse003']
+2022-08-15 00:00:22,207 :INFO : test_admin_add_user_to_course :the popped course is: Course Name: TestCourse003
+Course Code: TestCourse003_ID
+Term: Fall 2022
+2022-08-15 00:00:25,398 :INFO : test_admin_add_user_to_course :StuFName0009successfully added toTestCourse003
+2022-08-15 00:01:15,398 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:01:22,073 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:01:27,275 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:01:31,605 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-15 00:01:36,092 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:01:36,128 :INFO : test_stu_take_ass :Student StuFName0008 StuLName0008: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-15 00:01:39,739 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:01:39,739 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:01:46,430 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:01:46,430 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:01:51,619 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:01:51,619 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:01:55,938 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 8sec']
+2022-08-15 00:01:55,938 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 8sec']
+2022-08-15 00:02:00,629 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:00,629 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:00,664 :INFO : test_stu_take_ass :Student StuFName0008 StuLName0008: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-15 00:02:00,664 :INFO : test_stu_take_ass :Student StuFName0008 StuLName0008: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-15 00:02:04,101 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:04,101 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:04,101 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:10,215 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:10,215 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:10,215 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:15,407 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:15,407 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:15,407 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:19,702 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-15 00:02:19,702 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-15 00:02:19,702 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-15 00:02:23,775 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:23,775 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:23,775 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:23,811 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-15 00:02:23,811 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-15 00:02:23,811 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0]
+2022-08-15 00:02:27,100 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:27,100 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:27,100 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:27,100 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:33,823 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:33,823 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:33,823 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:33,823 :INFO : test_stu_take_ass :Answer Test
+2022-08-15 00:02:38,988 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:38,988 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:38,988 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:38,988 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:02:43,287 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-15 00:02:43,287 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-15 00:02:43,287 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-15 00:02:43,287 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-15 00:02:47,565 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:47,565 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:47,565 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:47,565 :INFO : test_stu_take_ass :fetch scores...
+2022-08-15 00:02:47,604 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-15 00:02:47,604 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-15 00:02:47,604 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-15 00:02:47,604 :INFO : test_stu_take_ass :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1]
+2022-08-15 00:02:51,068 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:02:57,297 :INFO : test_stu_take_ass_timer :Time out test
+2022-08-15 00:03:02,468 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:04:07,542 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-15 00:04:11,734 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:04:11,768 :INFO : test_stu_take_ass_timer :Student StuFName0008 StuLName0008: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:04:15,232 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:04:15,232 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:04:17,476 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-15 00:04:17,476 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-15 00:04:21,769 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:04:21,769 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:04:21,803 :INFO : test_stu_take_ass_timer :Student StuFName0008 StuLName0008: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:04:21,803 :INFO : test_stu_take_ass_timer :Student StuFName0008 StuLName0008: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:04:25,291 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:04:25,291 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:04:25,291 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:04:32,207 :INFO : test_stu_take_ass_timer :Time out test
+2022-08-15 00:04:32,207 :INFO : test_stu_take_ass_timer :Time out test
+2022-08-15 00:04:32,207 :INFO : test_stu_take_ass_timer :Time out test
+2022-08-15 00:04:37,389 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:04:37,389 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:04:37,389 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-15 00:05:42,465 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-15 00:05:42,465 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-15 00:05:42,465 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-08-15 00:05:46,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:46,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:46,765 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:46,799 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:05:46,799 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:05:46,799 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:05:50,113 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:05:50,113 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:05:50,113 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:05:50,113 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-15 00:05:51,894 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-15 00:05:51,894 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-15 00:05:51,894 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-15 00:05:51,894 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-15 00:05:56,013 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:56,013 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:56,013 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:56,013 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-15 00:05:56,048 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:05:56,048 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:05:56,048 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]
+2022-08-15 00:05:56,048 :INFO : test_stu_take_ass_timer :Student StuFName0009 StuLName0009: the scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [0,1,0]

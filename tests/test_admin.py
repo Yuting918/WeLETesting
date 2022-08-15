@@ -8,11 +8,10 @@ from testData.NewUserData import NewUserData
 from testData.QuestionPoolData import QuestionPoolData
 from utilities.BaseClass import BaseClass
 
-
 class TestWeLEAdmin(BaseClass):
     course_name: str = 'TestCourse003'
-    user_start_id = 5
-    user_end_id = 6
+    user_start_id = 8
+    user_end_id = 10
     pool_tag = 'MATH 101'
     pool_name = 'TestPool000'
     assignment_name = course_name + '_Ass_002'
