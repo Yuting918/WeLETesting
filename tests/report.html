@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 14-Aug-2022 at 19:11:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 14-Aug-2022 at 23:31:38 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.10.5</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 125.98 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>4 tests ran in 141.28 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,46 +271,63 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="error results-table-row">
+        <tr>
+          <td class="col-result">Error</td>
+          <td class="col-name">test_takeAssignment.py::TestTakeAssignment::get_scores::setup</td>
+          <td class="col-duration">0.00</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">file /Users/yutingq/Desktop/Projects/0_GoingOn/0_Consulting/WeLE/WELeRepo/SeleniumTesting/tests/test_takeAssignment.py, line 121<br/>      def get_scores(self, assignmentPage,log):<br/><span class="error">E       fixture &#x27;assignmentPage&#x27; not found</span><br/>&gt;       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, getData, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, setup, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory<br/>&gt;       use &#x27;pytest --fixtures [testpath]&#x27; for help on them.<br/><br/>/Users/yutingq/Desktop/Projects/0_GoingOn/0_Consulting/WeLE/WELeRepo/SeleniumTesting/tests/test_takeAssignment.py:121<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_takeAssignment.py::TestTakeAssignment::test_stu_take_ass[getData0]</td>
-          <td class="col-duration">23.41</td>
+          <td class="col-duration">25.95</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_takeAssignment.py:33 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_takeAssignment.py:43 The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_takeAssignment.py:52 [&#x27;TestCourse003_Ass_002&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;1/1&#x27;, &#x27;0h 0min 8sec&#x27;]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_takeAssignment.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
+INFO     test_stu_take_ass:test_takeAssignment.py:48 The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+INFO     test_stu_take_ass:test_takeAssignment.py:57 [&#x27;TestCourse003_Ass_002&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;1/1&#x27;, &#x27;0h 0min 7sec&#x27;]
+INFO     test_stu_take_ass:test_takeAssignment.py:128 fetch scores...
+INFO     test_stu_take_ass:test_takeAssignment.py:132 The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1]<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_takeAssignment.py::TestTakeAssignment::test_stu_take_ass[getData1]</td>
-          <td class="col-duration">19.69</td>
+          <td class="col-duration">22.82</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_takeAssignment.py:33 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_takeAssignment.py:43 The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_takeAssignment.py:52 [&#x27;TestCourse003_Ass_002&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 0min 8sec&#x27;]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_takeAssignment.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
+INFO     test_stu_take_ass:test_takeAssignment.py:48 The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+INFO     test_stu_take_ass:test_takeAssignment.py:57 [&#x27;TestCourse003_Ass_002&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 0min 7sec&#x27;]
+INFO     test_stu_take_ass:test_takeAssignment.py:128 fetch scores...
+INFO     test_stu_take_ass:test_takeAssignment.py:132 The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0]<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_takeAssignment.py::TestTakeAssignment::test_stu_take_ass_timer[getData0]</td>
-          <td class="col-duration">78.89</td>
+          <td class="col-duration">83.66</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_takeAssignment.py:75 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass_timer:test_takeAssignment.py:86 The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass_timer:test_takeAssignment.py:93 [&#x27;TestCourse003_Ass_002&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 1min 1sec&#x27;]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_takeAssignment.py:82 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
+INFO     test_stu_take_ass_timer:test_takeAssignment.py:95 The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+INFO     test_stu_take_ass_timer:test_takeAssignment.py:102 [&#x27;TestCourse003_Ass_002&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 1min 0sec&#x27;]
+INFO     test_stu_take_ass_timer:test_takeAssignment.py:128 fetch scores...
+INFO     test_stu_take_ass_timer:test_takeAssignment.py:132 The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_takeAssignment.py::TestTakeAssignment::test_stu_take_ass_timer[getData1]</td>
-          <td class="col-duration">3.92</td>
+          <td class="col-duration">8.80</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_takeAssignment.py:75 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-WARNING  test_stu_take_ass_timer:test_takeAssignment.py:103 There is no attempt left forTestCourse003_Ass_002<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_takeAssignment.py:82 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
+WARNING  test_stu_take_ass_timer:test_takeAssignment.py:116 There is no attempt left forTestCourse003_Ass_002
+INFO     test_stu_take_ass_timer:test_takeAssignment.py:128 fetch scores...
+INFO     test_stu_take_ass_timer:test_takeAssignment.py:132 The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]<br/></div></td></tr></tbody></table></body></html>

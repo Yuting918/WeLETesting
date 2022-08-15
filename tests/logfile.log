@@ -8230,3 +8230,90 @@ Term: Fall 2022
 2022-08-14 19:11:04,542 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
 2022-08-14 19:11:06,280 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
 2022-08-14 19:11:06,280 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:16:53,227 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:16:55,479 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:19:32,738 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:19:34,919 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:19:45,903 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:19:45,903 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:19:47,655 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:19:47,655 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:21:03,285 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:21:04,912 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:21:16,261 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:21:16,261 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:21:18,058 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:21:18,058 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:21:35,275 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:21:36,934 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:23:00,834 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:23:03,085 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:23:39,660 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:23:41,381 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:23:48,623 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:23:48,623 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:23:49,861 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:23:49,861 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:24:52,643 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:24:54,773 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:25:01,932 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:25:01,932 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:25:03,264 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:25:03,264 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:25:53,425 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:25:55,325 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:26:00,035 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:26:02,562 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:26:02,562 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:26:04,362 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:26:04,362 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:26:09,039 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:26:09,039 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:26:50,886 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:26:50,886 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:26:53,126 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:26:53,126 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:26:57,166 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:26:57,166 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:26:57,204 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:26:57,204 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:27:51,048 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:27:52,891 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:27:56,965 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:27:56,997 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:27:59,855 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:27:59,855 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:28:01,705 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:28:01,705 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:28:05,718 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:28:05,718 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:28:05,752 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:28:05,752 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:29:22,723 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:29:34,306 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:29:38,628 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '1/1', '0h 0min 7sec']
+2022-08-14 23:29:42,633 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:29:42,669 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1]
+2022-08-14 23:29:45,421 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:29:45,421 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:29:57,179 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:29:57,179 :INFO : test_stu_take_ass :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:30:01,507 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-14 23:30:01,507 :INFO : test_stu_take_ass :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 0min 7sec']
+2022-08-14 23:30:05,466 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:30:05,466 :INFO : test_stu_take_ass :fetch scores...
+2022-08-14 23:30:05,499 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0]
+2022-08-14 23:30:05,499 :INFO : test_stu_take_ass :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0]
+2022-08-14 23:30:07,951 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:30:19,737 :INFO : test_stu_take_ass_timer :The assignment name is TestCourse003_Ass_002; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
+2022-08-14 23:31:24,812 :INFO : test_stu_take_ass_timer :['TestCourse003_Ass_002', 'Homework', '1', '1 Minutes', '0/1', '0h 1min 0sec']
+2022-08-14 23:31:29,119 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:31:29,152 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:31:31,897 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:31:31,897 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT']
+2022-08-14 23:31:33,863 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:31:33,863 :WARNING : test_stu_take_ass_timer :There is no attempt left forTestCourse003_Ass_002
+2022-08-14 23:31:37,935 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:31:37,935 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-08-14 23:31:37,969 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]
+2022-08-14 23:31:37,969 :INFO : test_stu_take_ass_timer :The scores for courseTestCourse003 assignment TestCourse003_Ass_002 is [1,0,0]

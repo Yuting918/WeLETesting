@@ -4,17 +4,19 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+
+from pageObjects.ScoresPage import ScoresPage
 from pageObjects.TakingTestPage import TakingTestPage
 
 
 class AssignmentPage:
     def __init__(self, driver):
         self.driver = driver
-
     choose_course_ipt = (By.CSS_SELECTOR, "div[class*='css-182didf']")
     confirmation_but = (By.CSS_SELECTOR, "input[type='checkbox']")
     start_test_button = (By.XPATH, "//button[text()='Start Test']")
-    zero_attempt = (By.XPATH,)
+    scores_but = (By.LINK_TEXT,'SCORES')
+
 
     def choose_course(self,course):
         path =  "//li[text()='" + course + "']"
@@ -38,6 +40,12 @@ class AssignmentPage:
         self.driver.find_element(*AssignmentPage.start_test_button).click()
         time.sleep(5)
         return TakingTestPage(self.driver)
+
+    def go_to_score_page(self):
+        self.driver.find_element(*AssignmentPage.scores_but).click()
+        time.sleep(2)
+        return ScoresPage(self.driver)
+
 
 
 
