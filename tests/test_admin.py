@@ -9,12 +9,12 @@ from testData.QuestionPoolData import QuestionPoolData
 from utilities.BaseClass import BaseClass
 
 class TestWeLEAdmin(BaseClass):
-    course_name: str = 'TestCourse003'
-    user_start_id = 8
-    user_end_id = 10
+    course_name: str = 'TestCourse004'
+    user_start_id = 12
+    user_end_id = 15
     pool_tag = 'MATH 101'
     pool_name = 'TestPool000'
-    assignment_name = course_name + '_Ass_002'
+    assignment_name = course_name + '_Ass_001'
     assignment_type='Homework'
     add_timer = True
     assignment_max_temp = 3

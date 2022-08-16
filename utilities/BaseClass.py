@@ -26,7 +26,7 @@ class BaseClass:
 
 
     def verifyAutoCompleteUserPresence(self):
-        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable(
             (By.CSS_SELECTOR,
              "input[aria-controls='autocomplete-user-field-listbox']"))) \
             .send_keys(Keys.ARROW_DOWN)
@@ -34,18 +34,18 @@ class BaseClass:
     def verifyDropdownPresence(self,text):
         path = "//ul/li[text()='" + text + "']"
         self.getLogger().info(path)
-        WebDriverWait(self.driver,10).until(EC.presence_of_element_located(
+        WebDriverWait(self.driver,20).until(EC.presence_of_element_located(
             (By.XPATH,path))).click()
 
 
     def verifyADLPresence(self):
-        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable(
             (By.CSS_SELECTOR,
              "input[aria-controls='asynchronous-demo-listbox']"))) \
             .send_keys(Keys.ARROW_DOWN)
 
     def verifyAutoCompleteCoursePresence(self):
-        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable(
             (By.CSS_SELECTOR,
              "input[aria-controls='autocomplete-course-field-listbox']"))) \
             .send_keys(Keys.ARROW_DOWN)

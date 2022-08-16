@@ -17,6 +17,10 @@ class ManageUserPage(BaseClass):
     f_name = (By.XPATH, "(//input)[3]")
     l_name = (By.XPATH, "(//input)[4]")
     add_user_but = (By.XPATH,"//button[text()='Add Users']")
+    student = (By.XPATH,"//div/ul/li[text()='Student']")
+    instructor = (By.XPATH, "//div/ul/li[text()='Instructor']")
+    ta = (By.XPATH, "//div/ul/li[text()='Teaching Assistant']")
+    admin = (By.XPATH, "//div/ul/li[text()='Administrator']")
 
    # Add Users
 
@@ -50,19 +54,21 @@ class ManageUserPage(BaseClass):
                                                 "1]").click()
 
     def select_student(self):
-        self.driver.find_element(By.XPATH,"//div/ul/li[text("
-                                          ")='Student']").click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+           ManageUserPage.student)).click()
+
 
     def select_instructor(self):
-        self.driver.find_element(By.XPATH,"//div/ul/li[text("
-                                         ")='Instructor']").click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+            ManageUserPage.instructor)).click()
+
     def select_ta(self):
-        self.driver.find_element(By.XPATH,"//div/ul/li[text()='Teaching "
-                                          "Assistant']").click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+            ManageUserPage.ta)).click()
 
     def select_admin(self):
-        self.driver.find_element(By.XPATH,"//div/ul/li[text("
-                                          ")='Administrator']").click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+            ManageUserPage.admin)).click()
 
     # Manage Users for Course
     popped_course = (By.CSS_SELECTOR, "div[class*='css-li77g6']")

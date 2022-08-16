@@ -1,6 +1,10 @@
 import time
 
+from selenium.webdriver.support.wait import WebDriverWait
+
+from pageObjects.RolePage import RolePage
 from selenium.webdriver import Keys
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 from pageObjects.AssignmentConfigurePage import AssignmentConfigurePage
@@ -32,7 +36,8 @@ class NewAssignmentPage(BaseClass):
         self.driver.find_element(*NewAssignmentPage.question_pool).click()
 
     def get_pool_by_name(self,pool_name):
-        self.driver.find_element(*NewAssignmentPage.more_but).click()
+        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(
+            NewAssignmentPage.more_but)).click()
         self.driver.find_element(*NewAssignmentPage.pool_name_ipt).send_keys(
             pool_name)
         self.driver.find_element(*NewAssignmentPage.fetech_pool_but).click()
