@@ -81,6 +81,11 @@ class ManageUserPage(BaseClass):
         self.verifyAutoCompleteUserPresence()
         self.driver.find_element(By.XPATH,"(//div/input)[5]").send_keys(name,
                                                                         Keys.ARROW_DOWN,Keys.ENTER)
+    def select_user(self,name):
+        self.driver.find_element(By.XPATH, "(//div/input)[5]").click()
+        self.verifyAutoCompleteUserPresence()
+        self.driver.find_element(By.XPATH,"(//div/input)[5]").send_keys(name,
+                                                                        Keys.ARROW_DOWN,Keys.ENTER)
 
 
     def select_course(self,course_name):

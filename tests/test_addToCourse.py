@@ -19,8 +19,8 @@ class TestAddUser(BaseClass):
         loginPage.chooseRole()
         dashboard = loginPage.logIn()
         manageUserPage = dashboard.manage_user()
-        manageUserPage.select_user(getData['f_name'], getData['l_name'])
-        course_name = 'Mathematica 101'
+        manageUserPage.select_user(getData['sName'])
+        course_name = getData['cName']
         manageUserPage.select_course(course_name)
         time.sleep(1)
         popped_course = manageUserPage.get_popped_course()
@@ -32,11 +32,15 @@ class TestAddUser(BaseClass):
         time.sleep(1)
         manageUserPage.sort_user()
         time.sleep(1)
-        assert getData['f_name'] in manageUserPage.get_registered_user(getData['f_name'])
-        log.info(getData['f_name'] + 'successfully added to' + course_name)
+        self.driver.execute_script ("window.scrollTo(0,"
+                                    "document.body.scrollHeight);")
+        self.driver.save_screenshot('ss.png')
+        assert getData['sName'] in manageUserPage.get_registered_user(getData[
+                                                                      'sName'])
+        log.info(getData['sName'] + 'successfully added to' + course_name)
         self.logout()
         time.sleep(1)
 
-    @pytest.fixture(params=NewUserData.new_student_user)
+    @pytest.fixture(params=NewUserData.students)
     def getData(self,request):
         return request.param

@@ -31,7 +31,7 @@ class TestAddUser(BaseClass):
         self.logout()
 
 
-    @pytest.fixture(params=NewUserData.new_student_user)
+    @pytest.fixture(params=NewUserData.gen_user('TestStudent',1,5))
     def getData(self,request):
         return request.param
 

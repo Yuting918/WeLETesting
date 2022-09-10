@@ -9,9 +9,9 @@ from testData.QuestionPoolData import QuestionPoolData
 from utilities.BaseClass import BaseClass
 
 class TestWeLEAdmin(BaseClass):
-    course_name: str = 'TestCourse004'
-    user_start_id = 12
-    user_end_id = 15
+    course_name: str = 'TestCourse006'
+    user_start_id = 16
+    user_end_id = 20
     pool_tag = 'MATH 101'
     pool_name = 'TestPool000'
     assignment_name = course_name + '_Ass_001'

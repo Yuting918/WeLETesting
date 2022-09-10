@@ -20,4 +20,12 @@ class NewUserData:
         print(new_user)
         return new_user
 
+    students =[{'sName':'TestStudent3','cName':'TestCourse1'},
+               {'sName': 'TestStudent3','cName': 'TestCourse2'},
+               {'sName': 'TestStudent4', 'cName': 'TestCourse1'},
+               {'sName': 'TestStudent4', 'cName': 'TestCourse2'},
+               {'sName': 'TestStudent5', 'cName': 'TestCourse1'},
+               {'sName': 'TestStudent5', 'cName': 'TestCourse2'}
+               ]
+
 

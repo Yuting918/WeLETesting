@@ -13,7 +13,7 @@ from utilities.BaseClass import BaseClass
 
 
 class TestTakeAssignment(BaseClass):
-    course_name = 'TestCourse004'
+    course_name = 'TestCourse003'
     assignment_name = course_name + '_Ass_001'
 
     def test_stu_take_ass(self, getData):
@@ -136,7 +136,7 @@ class TestTakeAssignment(BaseClass):
                          TestTakeAssignment.course_name + ' '
                          'assignment ' + TestTakeAssignment.assignment_name + ' is ' + score)
 
-    @pytest.fixture(params=AsStudentTestData.gen_id_answer(12, 15, ['-3/(x^4)',
+    @pytest.fixture(params=AsStudentTestData.gen_id_answer(4, 5, ['-3/(x^4)',
                                                                   '8x^7 +Cos[x]']))
     def getData(self, request):
         return request.param

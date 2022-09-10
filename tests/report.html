@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 15-Aug-2022 at 23:43:05 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 10-Sep-2022 at 02:28:19 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -254,13 +254,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>macOS-10.15.7-x86_64-i386-64bit</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"html": "3.1.1", "metadata": "2.0.2"}</td></tr>
+        <td>{"anyio": "3.6.1", "html": "3.1.1", "metadata": "2.0.2"}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.10.5</td></tr></table>
     <h2>Summary</h2>
-    <p>12 tests ran in 444.96 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">12 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>6 tests ran in 51.31 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -274,162 +274,78 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass[getData0]</td>
-          <td class="col-duration">28.17</td>
+          <td class="col-name">test_addToCourse.py::TestAddUser::test_admin_add_user[getData0]</td>
+          <td class="col-duration">11.53</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_student.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_student.py:45 Answer Test
-INFO     test_stu_take_ass:test_student.py:49 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_student.py:58 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 0min 7sec&#x27;]
-INFO     test_stu_take_ass:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass:test_student.py:134 Student StuFName0012 StuLName0012: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     verifyDropdownPresence:BaseClass.py:36 //ul/li[text()=&#x27;TestCourse1&#x27;]
+INFO     test_admin_add_user:test_addToCourse.py:27 the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+INFO     test_admin_add_user:test_addToCourse.py:40 TestStudent3successfully added toTestCourse1<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass[getData1]</td>
-          <td class="col-duration">25.39</td>
+          <td class="col-name">test_addToCourse.py::TestAddUser::test_admin_add_user[getData1]</td>
+          <td class="col-duration">7.60</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_student.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_student.py:45 Answer Test
-INFO     test_stu_take_ass:test_student.py:49 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_student.py:58 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;1/1&#x27;, &#x27;0h 0min 7sec&#x27;]
-INFO     test_stu_take_ass:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass:test_student.py:134 Student StuFName0012 StuLName0012: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [1,0]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     verifyDropdownPresence:BaseClass.py:36 //ul/li[text()=&#x27;TestCourse2&#x27;]
+INFO     test_admin_add_user:test_addToCourse.py:27 the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+INFO     test_admin_add_user:test_addToCourse.py:40 TestStudent3successfully added toTestCourse2<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass[getData2]</td>
-          <td class="col-duration">24.61</td>
+          <td class="col-name">test_addToCourse.py::TestAddUser::test_admin_add_user[getData2]</td>
+          <td class="col-duration">8.07</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_student.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_student.py:45 Answer Test
-INFO     test_stu_take_ass:test_student.py:49 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_student.py:58 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;1/1&#x27;, &#x27;0h 0min 7sec&#x27;]
-INFO     test_stu_take_ass:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass:test_student.py:134 Student StuFName0013 StuLName0013: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [1]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     verifyDropdownPresence:BaseClass.py:36 //ul/li[text()=&#x27;TestCourse1&#x27;]
+INFO     test_admin_add_user:test_addToCourse.py:27 the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+INFO     test_admin_add_user:test_addToCourse.py:40 TestStudent4successfully added toTestCourse1<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass[getData3]</td>
-          <td class="col-duration">25.19</td>
+          <td class="col-name">test_addToCourse.py::TestAddUser::test_admin_add_user[getData3]</td>
+          <td class="col-duration">7.79</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_student.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_student.py:45 Answer Test
-INFO     test_stu_take_ass:test_student.py:49 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_student.py:58 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 0min 8sec&#x27;]
-INFO     test_stu_take_ass:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass:test_student.py:134 Student StuFName0013 StuLName0013: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,1]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     verifyDropdownPresence:BaseClass.py:36 //ul/li[text()=&#x27;TestCourse2&#x27;]
+INFO     test_admin_add_user:test_addToCourse.py:27 the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+INFO     test_admin_add_user:test_addToCourse.py:40 TestStudent4successfully added toTestCourse2<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass[getData4]</td>
-          <td class="col-duration">24.94</td>
+          <td class="col-name">test_addToCourse.py::TestAddUser::test_admin_add_user[getData4]</td>
+          <td class="col-duration">7.72</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_student.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_student.py:45 Answer Test
-INFO     test_stu_take_ass:test_student.py:49 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_student.py:58 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;1/1&#x27;, &#x27;0h 0min 7sec&#x27;]
-INFO     test_stu_take_ass:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass:test_student.py:134 Student StuFName0014 StuLName0014: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [1]<br/></div></td></tr></tbody>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     verifyDropdownPresence:BaseClass.py:36 //ul/li[text()=&#x27;TestCourse1&#x27;]
+INFO     test_admin_add_user:test_addToCourse.py:27 the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+INFO     test_admin_add_user:test_addToCourse.py:40 TestStudent5successfully added toTestCourse1<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass[getData5]</td>
-          <td class="col-duration">25.02</td>
+          <td class="col-name">test_addToCourse.py::TestAddUser::test_admin_add_user[getData5]</td>
+          <td class="col-duration">8.54</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass:test_student.py:36 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass:test_student.py:45 Answer Test
-INFO     test_stu_take_ass:test_student.py:49 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass:test_student.py:58 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 0min 7sec&#x27;]
-INFO     test_stu_take_ass:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass:test_student.py:134 Student StuFName0014 StuLName0014: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,1]<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass_timer[getData0]</td>
-          <td class="col-duration">85.57</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_student.py:83 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass_timer:test_student.py:92 Time out test
-INFO     test_stu_take_ass_timer:test_student.py:97 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass_timer:test_student.py:104 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 1min 1sec&#x27;]
-INFO     test_stu_take_ass_timer:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass_timer:test_student.py:134 Student StuFName0012 StuLName0012: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,1,0]<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass_timer[getData1]</td>
-          <td class="col-duration">11.05</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_student.py:83 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-WARNING  test_stu_take_ass_timer:test_student.py:118 There is no attempt left forTestCourse004_Ass_001
-INFO     test_stu_take_ass_timer:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass_timer:test_student.py:134 Student StuFName0012 StuLName0012: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,1,0]<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass_timer[getData2]</td>
-          <td class="col-duration">86.05</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_student.py:83 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass_timer:test_student.py:92 Time out test
-INFO     test_stu_take_ass_timer:test_student.py:97 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass_timer:test_student.py:104 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 1min 1sec&#x27;]
-INFO     test_stu_take_ass_timer:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass_timer:test_student.py:134 Student StuFName0013 StuLName0013: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,0,1]<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass_timer[getData3]</td>
-          <td class="col-duration">11.23</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_student.py:83 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-WARNING  test_stu_take_ass_timer:test_student.py:118 There is no attempt left forTestCourse004_Ass_001
-INFO     test_stu_take_ass_timer:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass_timer:test_student.py:134 Student StuFName0013 StuLName0013: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,0,1]<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass_timer[getData4]</td>
-          <td class="col-duration">86.02</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_student.py:83 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-INFO     test_stu_take_ass_timer:test_student.py:92 Time out test
-INFO     test_stu_take_ass_timer:test_student.py:97 The assignment name is TestCourse004_Ass_001; The type is Homework; The number of questions is 1; The time limit is 1 Minutes
-INFO     test_stu_take_ass_timer:test_student.py:104 [&#x27;TestCourse004_Ass_001&#x27;, &#x27;Homework&#x27;, &#x27;1&#x27;, &#x27;1 Minutes&#x27;, &#x27;0/1&#x27;, &#x27;0h 1min 1sec&#x27;]
-INFO     test_stu_take_ass_timer:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass_timer:test_student.py:134 Student StuFName0014 StuLName0014: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,0,1]<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_student.py::TestTakeAssignment::test_stu_take_ass_timer[getData5]</td>
-          <td class="col-duration">11.65</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_stu_take_ass_timer:test_student.py:83 [&#x27;COURSES&#x27;, &#x27;SCORES&#x27;, &#x27;ASSIGNMENT&#x27;]
-WARNING  test_stu_take_ass_timer:test_student.py:118 There is no attempt left forTestCourse004_Ass_001
-INFO     test_stu_take_ass_timer:test_student.py:130 fetch scores...
-INFO     test_stu_take_ass_timer:test_student.py:134 Student StuFName0014 StuLName0014: the scores for courseTestCourse004 assignment TestCourse004_Ass_001 is [0,0,1]<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     verifyDropdownPresence:BaseClass.py:36 //ul/li[text()=&#x27;TestCourse2&#x27;]
+INFO     test_admin_add_user:test_addToCourse.py:27 the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+INFO     test_admin_add_user:test_addToCourse.py:40 TestStudent5successfully added toTestCourse2<br/></div></td></tr></tbody></table></body></html>
