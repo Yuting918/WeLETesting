@@ -15,30 +15,26 @@ class TestGenQuesPool(BaseClass):
         loginPage.typeRole("TestAdmin")
         loginPage.chooseRole()
         dashboard = loginPage.logIn()
-        questionPoolPage = dashboard.go_to_ques_pool()
-        questionPoolPage.add_pool()
-        questionPoolPage.create_pool('TestPool003', 'TestPool003',1)
-        # questionPoolPage.add_question()
-        # questionPoolPage.choose_tag('MATH 101')
-        # questionPoolPage.fetch_questions()
-        self.add_all_questions(questionPoolPage,log)
+        questionPoolPage = dashboard.go_to_ques_pool(screenshot=True,
+                                                     fileName='/Users/yutingq/Desktop/lms_was_testing/addQuestionToPool/before_add_question.png')
+        questionPoolPage.view_pool()
+        questionPoolPage.edit_pool()
+        questionPoolPage.choose_tag('MATH 101')
+        questionPoolPage.fetch_questions()
+        self.add_all_questions(questionPoolPage, log)
         self.driver.find_element(By.TAG_NAME,'body').send_keys(
             Keys.CONTROL + Keys.HOME)
         self.driver.maximize_window()
         questionPoolPage.update_pool()
-        self.driver.save_screenshot(
-            '/Users/yutingq/Desktop/lms_was_testing/createQuestionPool'
-            '/questionPoolCreated.png')
-
-
-
-
 
     def add_all_questions(self,questionPoolPage,log):
         while True:
-            try:
-                questionPoolPage.get_alert()
-                log.info('No question fetched')
+            alertText = questionPoolPage.get_final_alert()
+            if alertText == 'No Questions Found matching the search Inputs. ' \
+                             'Please search with different combinations !':
+                log.info(alertText)
+                log.info('NO MORE OTHER QUESTIONS')
                 break
-            except:
+            else:
                 questionPoolPage.click_add()
+                log.info('One question being added')

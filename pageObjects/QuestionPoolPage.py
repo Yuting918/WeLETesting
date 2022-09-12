@@ -28,6 +28,7 @@ class QuestionPoolPage(BaseClass):
     pools = (By.CSS_SELECTOR, "div[class*='recentPoolCard_container__8DztQ']")
     view_pool_but = (By.LINK_TEXT,'View Pool')
     delete_pool_but = (By.XPATH, "//button[text()='Delete Pool']")
+    edit_pool_but = (By.XPATH, "//button[text()='Edit Pool']")
     confirm_delete_but = (By.XPATH, "//button[text()='Ok']")
     add_question_to_pool_but = (By.XPATH, "//button[text()='Add']")
     update_pool_but = (By.XPATH, "//button[text()='Update Pool']")
@@ -85,6 +86,16 @@ class QuestionPoolPage(BaseClass):
     def get_alert(self):
         return self.driver.find_element(*QuestionPoolPage.alert_info)
 
+    def get_final_alert(self):
+        alters = self.driver.find_elements(*QuestionPoolPage.alert_info)
+        if len(alters)>1:
+            final_alert = alters[len(alters)-1]
+            final_alert_info = final_alert.text
+            return final_alert_info
+        else:
+            return alters[0].text
+
+
     def get_questions(self):
         return self.driver.find_elements(*QuestionPoolPage.questions)
 
@@ -94,18 +105,33 @@ class QuestionPoolPage(BaseClass):
     def view_pool(self):
         self.driver.find_element(*QuestionPoolPage.view_pool_but).click()
 
+
+
     def delete_pool(self):
         self.driver.find_element(*QuestionPoolPage.delete_pool_but).click()
         self.driver.find_element(*QuestionPoolPage.confirm_delete_but).click()
+        time.sleep(1)
+        self.driver.save_screenshot(
+            '/Users/yutingq/Desktop/lms_was_testing/deleteQuestionPool/'
+            'after_deletion.png')
+
+    def edit_pool(self):
+        self.driver.find_element(*QuestionPoolPage.edit_pool_but).click()
 
     def click_add(self):
         self.driver.find_element(
             *QuestionPoolPage.add_question_to_pool_but).click()
 
     def update_pool(self):
-        element =  self.driver.find_element(
+        element = self.driver.find_element(
             *QuestionPoolPage.update_pool_but)
         self.driver.execute_script("arguments[0].click();", element)
+        time.sleep(0.5)
+        self.driver.save_screenshot(
+            '/Users/yutingq/Desktop/lms_was_testing/addQuestionToPool'
+            '/after_add_questions.png')
+
+
 
     def pool_editable(self):
         return self.driver.find_element(*QuestionPoolPage.pool_cannot_be_edited)

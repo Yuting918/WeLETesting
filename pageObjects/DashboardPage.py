@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 
 from pageObjects.AssignmentPage import AssignmentPage
@@ -43,9 +45,12 @@ class DashboardPage:
         self.driver.find_element(*DashboardPage.manage_users).click()
         return ManageUserPage(self.driver)
 
-    def go_to_ques_pool(self):
+    def go_to_ques_pool(self,screenshot=False, fileName=''):
         self.driver.find_element(*DashboardPage.question_pool).click()
         self.driver.find_element(By.LINK_TEXT,"Question Pool").click()
+        time.sleep(1)
+        if screenshot:
+            self.driver.save_screenshot(fileName)
         return QuestionPoolPage(self.driver)
 
     def go_to_assignment(self):
