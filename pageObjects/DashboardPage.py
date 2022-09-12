@@ -3,6 +3,7 @@ import time
 from selenium.webdriver.common.by import By
 
 from pageObjects.AssignmentPage import AssignmentPage
+from pageObjects.CoursesPage import CoursesPage
 from pageObjects.ManageCoursePage import ManageCoursePage
 from pageObjects.ManageUserPage import ManageUserPage
 from pageObjects.NewAssignmentPage import NewAssignmentPage
@@ -28,7 +29,12 @@ class DashboardPage:
     new_assignment_but = (By.LINK_TEXT, "+ New Assignment")
     questions_but = (By.LINK_TEXT,"QUESTIONS")
     course_svg = (By.XPATH,"//div[3]//button[2]//*[name()='svg']")
+    course_tab_but = (By.LINK_TEXT,"COURSES")
 
+    def go_to_courses(self):
+        self.driver.find_element(*DashboardPage.course_tab_but).click()
+        coursesPage = CoursesPage(self.driver)
+        return coursesPage
 
     def get_tab_buttons(self):
         return self.driver.find_elements(*DashboardPage.tab_button)

@@ -44,7 +44,8 @@ class NewAssignmentPage(BaseClass):
         q_pools = self.driver.find_elements(
             *NewAssignmentPage.question_pool_divs)
         for q_pool in q_pools:
-            label = q_pool.find_element(*NewAssignmentPage.q_pool_label_from_div)
+            label = q_pool.find_element(By.CSS_SELECTOR, "span["
+                                                         "aria-label='"+pool_name+"']")
             log = self.getLogger()
             log.info(label.text)
             if label.text.upper() == pool_name.upper():

@@ -10001,3 +10001,5 @@ Term: Fall 2022
 2022-09-11 19:46:04,588 :INFO : test_generate_question_pool :One question being added
 2022-09-11 19:46:04,604 :INFO : test_generate_question_pool :No Questions Found matching the search Inputs. Please search with different combinations !
 2022-09-11 19:46:04,604 :INFO : test_generate_question_pool :NO MORE OTHER QUESTIONS
+2022-09-11 20:27:20,323 :INFO : get_pool_by_name :TESTPOOL001
+2022-09-11 20:27:30,723 :INFO : test_generate_question_pool :Assignment successfully released
