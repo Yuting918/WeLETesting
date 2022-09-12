@@ -3,20 +3,12 @@ from testData.NewUserData import NewUserData
 
 class AsStudentTestData:
     @staticmethod
-    def gen_id_answer(s,e,answers):
+    def gen_id(s,e):
         user_ids_answers = []
         for i in range(s,e):
-            if i < 10:
-                n = '000' + str(i)
-            elif 10 <= i < 100:
-                n = '00' + str(i)
-            elif 100 <=i < 1000:
-                n = '0' + str(i)
-            else:
-                n = str(i)
-            for answer in answers:
-                user_ids_answers.append({'ID':n,
-                                 'Answer':answer})
+           id = 'TestStudent' + str(i)
+           user_ids_answers.append({'ID':id,'dup':1})
+           user_ids_answers.append({'ID': id, 'dup': 2})
         return user_ids_answers
 
 

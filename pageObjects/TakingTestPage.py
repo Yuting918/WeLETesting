@@ -17,6 +17,8 @@ class TakingTestPage:
     By.CSS_SELECTOR, "input[placeholder='Type your answer here']")
     submit_assignment_but = (By.XPATH,"//button[text()='Submit Assignment']")
     submit_assignment_conf_but = (By.XPATH, "//button[text()='Submit']")
+    answer_choice = (
+    By.CSS_SELECTOR, "p[class='Output']")
 
 
     def get_assignment_info(self):
@@ -52,6 +54,8 @@ class TakingTestPage:
         WebDriverWait(self.driver,10).until(EC.element_to_be_clickable(
             TakingTestPage.submit_assignment_conf_but)).click()
 
+    def click_multiple_choice(self):
+        self.driver.find_element(*TakingTestPage.answer_choice).click()
 
 
 

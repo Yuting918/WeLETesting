@@ -13,13 +13,11 @@ from utilities.BaseClass import BaseClass
 
 
 class TestTakeAssignment(BaseClass):
-    course_name = 'TestCourse003'
-    assignment_name = course_name + '_Ass_002'
+    course_name = 'TestCourse1'
+    assignment_name = 'TestAss1Course1'
 
     def test_stu_take_ass(self, getData):
-        stu_id = getData['ID']
-        student = 'StuFName' + stu_id + ' StuLName' + stu_id
-        answer = getData['Answer']
+        student = getData['ID']
         # log in as student
         log = self.getLogger()
         loginPage = LoginPage(self.driver)
@@ -34,38 +32,36 @@ class TestTakeAssignment(BaseClass):
         for tab in tabs:
             tabs_l.append(tab.text)
         log.info(tabs_l)
-
         # taking the test
         assignmentPage = dashboard.go_to_assignment()
         assignmentPage.choose_course(TestTakeAssignment.course_name)
         try:
-            assignmentPage.zero_remaining_attempts(
-                TestTakeAssignment.assignment_name)
+            assignmentPage.zero_remaining_attempts()
         except:
+            log.info('Answer Test')
             takingAssPage = assignmentPage.go_to_spec_ass(
                 TestTakeAssignment.assignment_name)
             ass_info = takingAssPage.get_assignment_info()
             log.info(f'The assignment name is {ass_info[0]}; The type is '
                      f'{ass_info[1]}; The number of questions is {ass_info[2]}; '
                      f'The time limit is {ass_info[3]}')
-            takingAssPage.type_answer(answer)
+            time.sleep(6)
+            takingAssPage.click_multiple_choice()
             takingAssPage.submit_assignment()
             time.sleep(2)
             takingAssPage.confirm_submit()
             time.sleep(2)
             ass_r_info = takingAssPage.get_assignment_review()
             log.info(ass_r_info)
-            self.get_scores(assignmentPage, log)
+            self.get_scores(assignmentPage, log, student)
             self.logout()
         else:
-            log.warning(
-                'There is no attempt left for' + TestTakeAssignment.assignment_name)
-            self.get_scores(assignmentPage, log)
+            log.info('NO ATTEMPTS LEFT')
+            self.get_scores(assignmentPage, log,student)
             self.logout()
 
     def test_stu_take_ass_timer(self, getData):
-        stu_id = getData['ID']
-        student = 'StuFName' + stu_id + ' StuLName' + stu_id
+        student = getData['ID']
         # log in as student
         log = self.getLogger()
         loginPage = LoginPage(self.driver)
@@ -85,9 +81,9 @@ class TestTakeAssignment(BaseClass):
         assignmentPage = dashboard.go_to_assignment()
         assignmentPage.choose_course(TestTakeAssignment.course_name)
         try:
-            assignmentPage.zero_remaining_attempts(
-                TestTakeAssignment.assignment_name)
+            assignmentPage.zero_remaining_attempts()
         except:
+            log.info('Time out test')
             takingAssPage = assignmentPage.go_to_spec_ass(
                 TestTakeAssignment.assignment_name)
 
@@ -110,29 +106,31 @@ class TestTakeAssignment(BaseClass):
                     0])
             actual_time_in_sec = actual_time_h * 60 * 60 + actual_time_m * 60 + actual_time_s
             assert abs(actual_time_in_sec - time_in_sec) < 10
-            self.get_scores(assignmentPage, log)
+            self.get_scores(assignmentPage, log,student)
             self.logout()
         else:
-            log.warning(
-                'There is no attempt left for' + TestTakeAssignment.assignment_name)
-            self.get_scores(assignmentPage, log)
+            log.info('NO ATTEMPTS LEFT')
+            self.get_scores(assignmentPage, log, student)
             self.logout()
 
-    def get_scores(self, assignmentPage, log):
-        scoresPage = assignmentPage.go_to_score_page()
-        scoresPage.choose_course(TestTakeAssignment.course_name)
-        scoresPage.set_end_date()
-        scoresPage.fetch_score()
-        score_rows = scoresPage.get_score_rows()
-        for score_row in score_rows:
-            log.info('fetch scores...')
-            if score_row.find_element(By.XPATH, ".//td[1]//span").text == \
-                    TestTakeAssignment.assignment_name:
-                score = score_row.find_element(By.XPATH, ".//td[2]//span").text
-                log.info('The scores for course' + TestTakeAssignment.course_name + ' '
-                         'assignment ' + TestTakeAssignment.assignment_name + ' is ' + score)
 
-    @pytest.fixture(params=AsStudentTestData.gen_id_answer(5, 6, ['-3/(x^4)',
-                                                                  '8x^7 +Cos[x]']))
+    def get_scores(self, assignmentPage, log,student):
+            scoresPage = assignmentPage.go_to_score_page()
+            scoresPage.choose_course(TestTakeAssignment.course_name)
+            scoresPage.set_end_date()
+            scoresPage.fetch_score()
+            score_rows = scoresPage.get_score_rows()
+            for score_row in score_rows:
+                log.info('fetch scores...')
+                if score_row.find_element(By.XPATH, ".//td[1]//span").text == \
+                        TestTakeAssignment.assignment_name:
+                    score = score_row.find_element(By.XPATH, ".//td[2]//span").text
+                    log.info('Student '+ student +': the scores for ' \
+                                                           'course' +
+                             TestTakeAssignment.course_name + ' '
+                             'assignment ' + TestTakeAssignment.assignment_name + ' is ' + score)
+
+
+    @pytest.fixture(params=AsStudentTestData.gen_id(1, 2))
     def getData(self, request):
         return request.param

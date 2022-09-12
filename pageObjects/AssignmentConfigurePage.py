@@ -26,6 +26,7 @@ class AssignmentConfigurePage(BaseClass):
     save_ass_but = (By.XPATH, "//button[text()='Save']")
     release_ass_but = (By.XPATH, "//button[text()='Release']")
 
+
     def configure_assignment(self, course_name,ass_name,max_attempt,type,
                              timer,duration,due,etd_due,grade_method):
         self.add_course_name(course_name)
@@ -117,3 +118,4 @@ class AssignmentConfigurePage(BaseClass):
         path = "li[data-value='{0}']".format(g_mtd)
         self.driver.find_element(*AssignmentConfigurePage.grade_method).click()
         self.driver.find_element(By.CSS_SELECTOR, path).click()
+
