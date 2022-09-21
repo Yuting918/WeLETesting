@@ -10243,3 +10243,573 @@ Term: Fall 2022
 2022-09-12 00:15:10,931 :INFO : test_stu_take_ass_timer :fetch scores...
 2022-09-12 00:15:10,966 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
 2022-09-12 00:15:10,966 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-12 01:48:00,955 :INFO : test_generate_question_pool :One question being added
+2022-09-12 01:48:01,022 :INFO : test_generate_question_pool :One question being added
+2022-09-12 01:48:01,037 :INFO : test_generate_question_pool :No Questions Found matching the search Inputs. Please search with different combinations !
+2022-09-12 01:48:01,037 :INFO : test_generate_question_pool :NO MORE OTHER QUESTIONS
+2022-09-12 01:48:41,265 :INFO : test_admin_add_user :TestStudent0001successfully added
+2022-09-12 01:48:44,756 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-12 01:48:44,756 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-12 01:48:48,092 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-12 01:48:48,092 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-12 01:48:48,092 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-12 01:48:51,463 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-12 01:48:51,463 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-12 01:48:51,463 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-12 01:48:51,463 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-12 01:50:43,543 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:50:44,633 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:50:48,634 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse1
+2022-09-12 01:50:57,292 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:50:57,292 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:50:58,371 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:50:58,371 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:50:58,371 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:51:02,122 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-12 01:51:02,122 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-12 01:51:02,122 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-12 01:51:05,254 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:51:05,254 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:51:05,254 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:51:06,339 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:51:06,339 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:51:06,339 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:51:06,339 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:51:10,034 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:51:10,034 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:51:10,034 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:51:10,034 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:53:00,255 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:01,349 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:04,919 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse1
+2022-09-12 01:53:08,403 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:08,403 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:09,489 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:09,489 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:12,973 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-12 01:53:12,973 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-12 01:53:16,306 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:16,306 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:16,306 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:17,386 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:17,386 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:17,386 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:20,859 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-12 01:53:20,859 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-12 01:53:20,859 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-12 01:53:24,162 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:24,162 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:24,162 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:24,162 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:25,237 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:25,237 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:25,237 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:25,237 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:28,721 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:53:28,721 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:53:28,721 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:53:28,721 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-12 01:53:31,939 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:31,939 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:31,939 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:31,939 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:31,939 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-12 01:53:33,022 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:33,022 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:33,022 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:33,022 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:33,022 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-12 01:53:36,509 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-12 01:53:36,509 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-12 01:53:36,509 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-12 01:53:36,509 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-12 01:53:36,509 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-12 01:53:39,857 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:39,857 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:39,857 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:39,857 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:39,857 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:39,857 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-12 01:53:40,936 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:40,936 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:40,936 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:40,936 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:40,936 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:40,936 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-12 01:53:44,403 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-12 01:53:44,403 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-12 01:53:44,403 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-12 01:53:44,403 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-12 01:53:44,403 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-12 01:53:44,403 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-12 01:57:42,983 :INFO : get_pool_by_name :TESTPOOL001
+2022-09-12 01:57:53,259 :INFO : test_generate_question_pool :Assignment successfully released
+2022-09-12 10:08:12,958 :INFO : test_generate_question_pool :This question pool is not editable
+2022-09-12 10:09:04,981 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 10:09:11,996 :INFO : test_stu_take_ass :Answer Test
+2022-09-12 10:09:17,190 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 10:09:27,413 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 13sec']
+2022-09-12 10:09:31,360 :INFO : test_stu_take_ass :fetch scores...
+2022-09-12 10:09:31,403 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0]
+2022-09-12 10:09:32,574 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 10:09:32,574 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 10:09:39,168 :INFO : test_stu_take_ass :Answer Test
+2022-09-12 10:09:39,168 :INFO : test_stu_take_ass :Answer Test
+2022-09-12 10:09:44,346 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 10:09:44,346 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 10:09:54,569 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 13sec']
+2022-09-12 10:09:54,569 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 13sec']
+2022-09-12 10:09:58,664 :INFO : test_stu_take_ass :fetch scores...
+2022-09-12 10:09:58,664 :INFO : test_stu_take_ass :fetch scores...
+2022-09-12 10:09:58,699 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0]
+2022-09-12 10:09:58,699 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0]
+2022-09-12 10:09:59,673 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 10:10:06,265 :INFO : test_stu_take_ass_timer :Time out test
+2022-09-12 10:10:11,441 :INFO : test_stu_take_ass_timer :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 11:36:55,239 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 11:37:01,654 :INFO : test_stu_take_ass :Answer Test
+2022-09-12 11:37:06,880 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 11:37:17,129 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '1/1', '0h 0min 13sec']
+2022-09-12 11:37:21,140 :INFO : test_stu_take_ass :fetch scores...
+2022-09-12 11:37:21,183 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [1]
+2022-09-12 11:37:22,172 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 11:37:22,172 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 11:37:28,336 :INFO : test_stu_take_ass :Answer Test
+2022-09-12 11:37:28,336 :INFO : test_stu_take_ass :Answer Test
+2022-09-12 11:37:33,680 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 11:37:33,680 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 11:37:43,907 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 13sec']
+2022-09-12 11:37:43,907 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 13sec']
+2022-09-12 11:37:48,069 :INFO : test_stu_take_ass :fetch scores...
+2022-09-12 11:37:48,069 :INFO : test_stu_take_ass :fetch scores...
+2022-09-12 11:37:48,110 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,1]
+2022-09-12 11:37:48,110 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,1]
+2022-09-12 11:37:49,165 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 11:37:55,252 :INFO : test_stu_take_ass_timer :Time out test
+2022-09-12 11:38:00,428 :INFO : test_stu_take_ass_timer :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-12 11:39:05,497 :INFO : test_stu_take_ass_timer :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-09-12 11:39:09,973 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-12 11:39:10,008 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-12 11:39:11,043 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 11:39:11,043 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-12 11:39:12,761 :INFO : test_stu_take_ass_timer :NO ATTEMPTS LEFT
+2022-09-12 11:39:12,761 :INFO : test_stu_take_ass_timer :NO ATTEMPTS LEFT
+2022-09-12 11:39:16,793 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-12 11:39:16,793 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-12 11:39:16,829 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-12 11:39:16,829 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-13 10:54:33,012 :INFO : test_admin_add_user :TestStudent0001successfully added
+2022-09-13 10:54:36,824 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-13 10:54:36,824 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-13 10:54:40,695 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 10:54:40,695 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 10:54:40,695 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 10:54:44,823 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 10:54:44,823 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 10:54:44,823 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 10:54:44,823 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:01:33,543 :INFO : test_admin_add_user :TestStudent0001successfully added
+2022-09-13 11:01:37,284 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-13 11:01:37,284 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-13 11:01:41,129 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 11:01:41,129 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 11:01:41,129 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 11:01:45,178 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:01:45,178 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:01:45,178 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:01:45,178 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:13:13,787 :INFO : test_admin_add_user :TestStudent0001successfully added
+2022-09-13 11:13:17,766 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-13 11:13:17,766 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-13 11:13:21,641 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 11:13:21,641 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 11:13:21,641 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-13 11:13:26,127 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:13:26,127 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:13:26,127 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:13:26,127 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-13 11:15:05,971 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:07,062 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:10,554 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse1
+2022-09-13 11:15:14,487 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:14,487 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:15,571 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:15,571 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:18,911 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-13 11:15:18,911 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-13 11:15:23,233 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:23,233 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:23,233 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:24,331 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:24,331 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:24,331 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:27,740 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-13 11:15:27,740 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-13 11:15:27,740 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-13 11:15:31,632 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:31,632 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:31,632 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:31,632 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:32,721 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:32,721 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:32,721 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:32,721 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:36,049 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-13 11:15:36,049 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-13 11:15:36,049 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-13 11:15:36,049 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-13 11:15:39,912 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:39,912 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:39,912 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:39,912 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:39,912 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-13 11:15:40,991 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:40,991 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:40,991 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:40,991 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:40,991 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-13 11:15:44,328 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-13 11:15:44,328 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-13 11:15:44,328 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-13 11:15:44,328 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-13 11:15:44,328 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-13 11:15:48,217 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:48,217 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:48,217 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:48,217 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:48,217 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:48,217 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-13 11:15:49,297 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:49,297 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:49,297 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:49,297 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:49,297 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:49,297 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-13 11:15:52,619 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-13 11:15:52,619 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-13 11:15:52,619 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-13 11:15:52,619 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-13 11:15:52,619 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-13 11:15:52,619 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-13 11:17:46,173 :INFO : test_generate_question_pool :One question being added
+2022-09-13 11:17:46,253 :INFO : test_generate_question_pool :One question being added
+2022-09-13 11:17:46,268 :INFO : test_generate_question_pool :No Questions Found matching the search Inputs. Please search with different combinations !
+2022-09-13 11:17:46,268 :INFO : test_generate_question_pool :NO MORE OTHER QUESTIONS
+2022-09-13 11:19:26,392 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-13 11:19:33,036 :INFO : test_stu_take_ass :Answer Test
+2022-09-13 11:19:38,231 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-13 11:19:48,468 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 13sec']
+2022-09-13 11:19:52,489 :INFO : test_stu_take_ass :fetch scores...
+2022-09-13 11:19:52,533 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0]
+2022-09-13 11:19:53,636 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-13 11:19:53,636 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-13 11:19:59,775 :INFO : test_stu_take_ass :Answer Test
+2022-09-13 11:19:59,775 :INFO : test_stu_take_ass :Answer Test
+2022-09-13 11:20:04,961 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-13 11:20:04,961 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-13 11:20:15,189 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 14sec']
+2022-09-13 11:20:15,189 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 14sec']
+2022-09-13 11:20:19,185 :INFO : test_stu_take_ass :fetch scores...
+2022-09-13 11:20:19,185 :INFO : test_stu_take_ass :fetch scores...
+2022-09-13 11:20:19,218 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0]
+2022-09-13 11:20:19,218 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0]
+2022-09-13 11:20:20,344 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-13 11:20:27,042 :INFO : test_stu_take_ass_timer :Time out test
+2022-09-13 11:20:32,224 :INFO : test_stu_take_ass_timer :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-13 11:21:37,304 :INFO : test_stu_take_ass_timer :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-09-13 11:21:41,369 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-13 11:21:41,403 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,0]
+2022-09-13 11:21:42,521 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-13 11:21:42,521 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-13 11:21:43,861 :INFO : test_stu_take_ass_timer :NO ATTEMPTS LEFT
+2022-09-13 11:21:43,861 :INFO : test_stu_take_ass_timer :NO ATTEMPTS LEFT
+2022-09-13 11:21:47,877 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-13 11:21:47,877 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-13 11:21:47,910 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,0]
+2022-09-13 11:21:47,910 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,0]
+2022-09-14 11:08:10,906 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:08:12,016 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:08:15,451 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse1
+2022-09-14 11:08:18,026 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:08:18,026 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:08:19,113 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:08:19,113 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:08:22,439 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-14 11:08:22,439 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-14 11:08:25,110 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:08:25,110 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:08:25,110 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:08:26,187 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:08:26,187 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:08:26,187 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:08:29,581 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-14 11:08:29,581 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-14 11:08:29,581 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-14 11:16:33,964 :INFO : test_generate_question_pool :One question being added
+2022-09-14 11:16:34,034 :INFO : test_generate_question_pool :One question being added
+2022-09-14 11:16:34,071 :INFO : test_generate_question_pool :No Questions Found matching the search Inputs. Please search with different combinations !
+2022-09-14 11:16:34,072 :INFO : test_generate_question_pool :NO MORE OTHER QUESTIONS
+2022-09-14 11:17:35,252 :INFO : test_admin_add_user :TestStudent0001successfully added
+2022-09-14 11:17:38,109 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-14 11:17:38,109 :INFO : test_admin_add_user :TestStudent0002successfully added
+2022-09-14 11:17:40,923 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-14 11:17:40,923 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-14 11:17:40,923 :INFO : test_admin_add_user :TestStudent0003successfully added
+2022-09-14 11:17:43,792 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-14 11:17:43,792 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-14 11:17:43,792 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-14 11:17:43,792 :INFO : test_admin_add_user :TestStudent0004successfully added
+2022-09-14 11:18:35,864 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:18:36,957 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:18:40,512 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse1
+2022-09-14 11:18:43,167 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:18:43,167 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:18:44,251 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:18:44,251 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:18:47,736 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-14 11:18:47,736 :INFO : test_admin_add_user :TestStudent3successfully added toTestCourse2
+2022-09-14 11:18:50,495 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:18:50,495 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:18:50,495 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:18:51,573 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:18:51,573 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:18:51,573 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:18:55,059 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-14 11:18:55,059 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-14 11:18:55,059 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse1
+2022-09-14 11:18:57,956 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:18:57,956 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:18:57,956 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:18:57,956 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:18:59,034 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:18:59,034 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:18:59,034 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:18:59,034 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:02,521 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-14 11:19:02,521 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-14 11:19:02,521 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-14 11:19:02,521 :INFO : test_admin_add_user :TestStudent4successfully added toTestCourse2
+2022-09-14 11:19:05,207 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:19:05,207 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:19:05,207 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:19:05,207 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:19:05,207 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse1']
+2022-09-14 11:19:06,283 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:19:06,283 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:19:06,283 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:19:06,283 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:19:06,283 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse1
+Course Code: TestCourse001
+Term: Fall 2022
+2022-09-14 11:19:09,766 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-14 11:19:09,766 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-14 11:19:09,766 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-14 11:19:09,766 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-14 11:19:09,766 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse1
+2022-09-14 11:19:12,555 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:19:12,555 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:19:12,555 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:19:12,555 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:19:12,555 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:19:12,555 :INFO : verifyDropdownPresence ://ul/li[text()='TestCourse2']
+2022-09-14 11:19:13,632 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:13,632 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:13,632 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:13,632 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:13,632 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:13,632 :INFO : test_admin_add_user :the popped course is: Course Name: TestCourse2
+Course Code: TestCourse002
+Term: Fall 2022
+2022-09-14 11:19:17,120 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-14 11:19:17,120 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-14 11:19:17,120 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-14 11:19:17,120 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-14 11:19:17,120 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-14 11:19:17,120 :INFO : test_admin_add_user :TestStudent5successfully added toTestCourse2
+2022-09-14 11:20:12,234 :INFO : get_pool_by_name :TESTPOOL001
+2022-09-14 11:20:22,455 :INFO : test_generate_question_pool :Assignment successfully released
+2022-09-14 11:22:13,045 :INFO : test_generate_question_pool :This question pool is not editable
+2022-09-14 11:22:53,065 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-14 11:22:59,944 :INFO : test_stu_take_ass :Answer Test
+2022-09-14 11:23:05,134 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-14 11:23:15,604 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '1/1', '0h 0min 15sec']
+2022-09-14 11:23:19,481 :INFO : test_stu_take_ass :fetch scores...
+2022-09-14 11:23:19,515 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [1]
+2022-09-14 11:23:20,349 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-14 11:23:20,349 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-14 11:23:26,374 :INFO : test_stu_take_ass :Answer Test
+2022-09-14 11:23:26,374 :INFO : test_stu_take_ass :Answer Test
+2022-09-14 11:23:31,562 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-14 11:23:31,562 :INFO : test_stu_take_ass :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-14 11:23:41,787 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 14sec']
+2022-09-14 11:23:41,787 :INFO : test_stu_take_ass :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 0min 14sec']
+2022-09-14 11:23:45,659 :INFO : test_stu_take_ass :fetch scores...
+2022-09-14 11:23:45,659 :INFO : test_stu_take_ass :fetch scores...
+2022-09-14 11:23:45,703 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,1]
+2022-09-14 11:23:45,703 :INFO : test_stu_take_ass :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,1]
+2022-09-14 11:23:46,580 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-14 11:23:53,134 :INFO : test_stu_take_ass_timer :Time out test
+2022-09-14 11:23:58,325 :INFO : test_stu_take_ass_timer :The assignment name is TestAss1Course1; The type is Quiz; The number of questions is 1; The time limit is 1 Minutes
+2022-09-14 11:25:03,402 :INFO : test_stu_take_ass_timer :['TestAss1Course1', 'Quiz', '1', '1 Minutes', '0/1', '0h 1min 1sec']
+2022-09-14 11:25:07,605 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-14 11:25:07,639 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-14 11:25:08,531 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-14 11:25:08,531 :INFO : test_stu_take_ass_timer :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-14 11:25:10,105 :INFO : test_stu_take_ass_timer :NO ATTEMPTS LEFT
+2022-09-14 11:25:10,105 :INFO : test_stu_take_ass_timer :NO ATTEMPTS LEFT
+2022-09-14 11:25:13,969 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-14 11:25:13,969 :INFO : test_stu_take_ass_timer :fetch scores...
+2022-09-14 11:25:14,003 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-14 11:25:14,003 :INFO : test_stu_take_ass_timer :Student TestStudent1: the scores for courseTestCourse1 assignment TestAss1Course1 is [0,0,1]
+2022-09-20 15:01:30,416 :INFO : test_stu_take_ass :['COURSES', 'SCORES', 'ASSIGNMENT', 'QUESTIONS']
+2022-09-20 15:01:35,547 :INFO : test_stu_take_ass :Answer Test

@@ -21,24 +21,7 @@ class TestGenQuesPool(BaseClass):
         # questionPoolPage.add_question()
         # questionPoolPage.choose_tag('MATH 101')
         # questionPoolPage.fetch_questions()
-        self.add_all_questions(questionPoolPage,log)
-        self.driver.find_element(By.TAG_NAME,'body').send_keys(
-            Keys.CONTROL + Keys.HOME)
         self.driver.maximize_window()
-        questionPoolPage.update_pool()
         self.driver.save_screenshot(
             '/Users/yutingq/Desktop/lms_was_testing/createQuestionPool'
             '/questionPoolCreated.png')
-
-
-
-
-
-    def add_all_questions(self,questionPoolPage,log):
-        while True:
-            try:
-                questionPoolPage.get_alert()
-                log.info('No question fetched')
-                break
-            except:
-                questionPoolPage.click_add()

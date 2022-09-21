@@ -34,7 +34,7 @@ class TestAddUser(BaseClass):
         time.sleep(1)
         self.driver.execute_script ("window.scrollTo(0,"
                                     "document.body.scrollHeight);")
-        self.driver.execute_script("document.body.style.zoom='50%'")
+        self.driver.execute_script("document.body.style.zoom='80%'")
         self.driver.save_screenshot(
             '/Users/yutingq/Desktop/lms_was_testing/addUserToCourse'
             '/course_user_'+getData[
